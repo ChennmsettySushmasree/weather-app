@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WEATHER NOW </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1>WEATHER</h1>
+		<div class="mincontainer">
+			<input id="city" type="text" placeholder="Enter the city name">
+			<button onclick="check()"> <i class="bi bi-search"></i></button>
+		</div>
+		<i class="bi bi-cloud-sun-fill"></i>
+		<p id="temp">0° C</p>
+		<h2 id="place">place</h2>
+		<div class="subcontainer">
+			<div class="windspeed">
+				<i class="bi bi-water color"></i>
+				<p id="wind">0 Km/hr</p>
+				<p>Wind speed</p>
+			</div>
+			<div class="Humidity">
+				<i class="bi bi-moisture color"></i>
+				<p id="humid">0 gm/km</p>
+				<p>Humidity</p>
+			</div>
+			<div class="latitude">
+				<i class="bi bi-globe color"></i>
+				<p id="latitude">0° lat</p>
+				<p>latitude</p>
+			</div>
+			<div class="Longitude">
+				<i class="bi bi-globe2 color"></i>
+				<p id="longitude">0° lon</p>
+				<p>Longitude</p>
+			</div>
+			<div class="Humidity">
+				<i class="bi bi-speedometer color"></i>
+				<p id="pressure">0 mb</p>
+				<p>Pressure</p>
+			</div>
+		
+			<div class="windspeed">
+				<i class="bi bi-thermometer-low color"></i>
+				<p id="lowTemp">0° C</p>
+				<p>Low Temp</p>
+			</div>
+			<div class="Humidity">
+				<i class="bi bi-thermometer-high color"></i>
+				<p id="highTemp">0° C</p>
+				<p>High Temp</p>
+			</div>
+			<div class="latitude">
+				<i class="bi bi-globe-central-south-asia color"></i>
+				<p  id="country">°C</p>
+				<p>Country</p>
+			</div>
+			<div class="Longitude">
+				<i class="bi bi-sunrise-fill color"></i>
+				<p id="sunRise">0 STD</p>
+				<p>Sunrise</p>
+			</div>
+			<div class="Humidity">
+				<i class="bi bi-sunset-fill color"></i>
+				<p id="sunSet">0 STD</p>
+				<p>Sunset</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="app.js"></script>
+</body>
+</html>

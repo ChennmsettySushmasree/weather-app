@@ -1,0 +1,119 @@
+body{
+	background-image: url(climate.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 700px;
+	margin: 50px auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
+	border-radius: 50px;
+	background: #f1f0f0dd;
+	box-shadow: 20px 20px 40px #bebebe,
+		-20px -20px 40px #ffffff;
+	text-align: center;
+	align-items: center;
+
+}
+.mincontainer{
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mincontainer input {
+	padding: 15px;
+	width: 60%;
+	border-radius: 15px;
+	outline: none;
+	margin-bottom: 20px;
+
+}
+
+.mincontainer button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* margin-left: 50px; */
+}
+.bi-search{
+	font-size: larger;
+	color: rgb(0, 136, 255);
+}
+.bi-cloud-sun-fill{
+	color: rgb(0, 136, 255);
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+}
+.subcontainer{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+	/* flex-shrink: 1; */
+	flex-wrap: wrap;
+	
+}
+.cloud{
+	width: 70px;
+	height: 70px;
+	margin: 30px auto;
+}
+.windspeed{
+	border: 1px solid grey;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow:5px 0px 10px rgba(0, 0, 0, 0.623) ;
+	margin: 5px;
+	padding: 7px;
+}
+.Humidity{
+	border: 1px solid grey;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow:5px 0px 10px rgba(0, 0, 0, 0.623) ;
+	margin: 5px;
+	padding: 7px;
+
+}
+.latitude{
+	border: 1px solid grey;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow:5px 0px 10px rgba(0, 0, 0, 0.623) ;
+	margin: 5px;
+	padding: 7px;
+
+}
+.Longitude{
+	border: 1px solid grey;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow:5px 0px 10px rgba(0, 0, 0, 0.623) ;
+	margin: 5px;
+	padding: 7px;
+}
+.color{
+	color: teal;
+	font-size: 60px;
+}
+.bi-cloud-sun-fill{
+	color: teal;
+	font-size: 60px;
+
+}
+@media (max-width:576px){
+	.container{
+		width: auto;
+	}
+	.subcontainer{
+		flex-wrap: wrap;
+	}
+	
+}
